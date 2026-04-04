@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KEYMUN 2026 Registration — Individual delegate and school delegation registration.">
+  <title>Registration | KEYMUN</title>
+  <link rel="icon" href="assets/images/keymun_logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="assets/images/keymun_logo.png" alt="KEYMUN Logo">
+        KMUN
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="committees.html">Committees</a>
+        <a href="registration.html" class="active">Registration</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Registration</h1>
+      <p>Choose the appropriate form below to complete your registration.</p>
+    </div>
+  </section>
+
+  <!-- Registration Cards -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="grid grid--2col">
+
+        <!-- Individual Delegate -->
+        <div class="card">
+          <h3>Individual Delegate Registration</h3>
+          <span class="card__tag">Delegates</span>
+          <p>Register as an individual delegate to participate in KEYMUN 2026.</p>
+          <div class="card__actions">
+            <a href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=_ZA9iCIfM0u67zTIjyNaHVJV3vwvZ75DsjWguh-9-PBUOEtFUzIwVDVKQkVaS1Y1NUE0TDg1NVZVRS4u" target="_blank" rel="noopener" class="btn btn--primary">Open Form</a>
+            <button class="btn btn--outline" onclick="copyLink('https://forms.microsoft.com/Pages/ResponsePage.aspx?id=_ZA9iCIfM0u67zTIjyNaHVJV3vwvZ75DsjWguh-9-PBUOEtFUzIwVDVKQkVaS1Y1NUE0TDg1NVZVRS4u')">Copy Link</button>
+          </div>
+        </div>
+
+        <!-- School Delegation -->
+        <div class="card">
+          <h3>School Delegation Registration</h3>
+          <span class="card__tag">Directors</span>
+          <p>Register your school delegation. For MUN directors and faculty advisors.</p>
+          <div class="card__actions">
+            <a href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=_ZA9iCIfM0u67zTIjyNaHVJV3vwvZ75DsjWguh-9-PBUN0UyMkg1WUZLOUhENklLV05VSUJQSlIwTS4u" target="_blank" rel="noopener" class="btn btn--primary">Open Form</a>
+            <button class="btn btn--outline" onclick="copyLink('https://forms.microsoft.com/Pages/ResponsePage.aspx?id=_ZA9iCIfM0u67zTIjyNaHVJV3vwvZ75DsjWguh-9-PBUN0UyMkg1WUZLOUhENklLV05VSUJQSlIwTS4u')">Copy Link</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <p class="footer__logo">KMUN</p>
+          <p>Version 1.0.0</p>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <a href="committees.html">Committees</a>
+          <a href="registration.html">Registration</a>
+          <a href="about.html">About Us</a>
+        </div>
+        <div class="footer__address">
+          <h4>Address</h4>
+          <p>Keystone Academy<br>No. 11, Anfu Street, Houshayu, Shunyi, Beijing, P.R. China 101318</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>KEYMUN 2025. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast">Link copied to clipboard!</div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
