@@ -1,0 +1,48 @@
+:root {
+  /* Colors */
+  --color-primary: #1B2A4A;
+  --color-primary-light: #2B5797;
+  --color-primary-dark: #0F1A2E;
+  --color-accent: #9B2335;
+  --color-white: #FFFFFF;
+  --color-off-white: #F5F5F5;
+  --color-gray-100: #EDEDED;
+  --color-gray-300: #BCBCBC;
+  --color-gray-600: #5A5A5A;
+  --color-text: #1A1A1A;
+  --color-text-light: #5A5A5A;
+
+  /* Typography */
+  --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --fs-hero: clamp(2.2rem, 5vw, 3.5rem);
+  --fs-h1: clamp(1.8rem, 3.5vw, 2.75rem);
+  --fs-h2: clamp(1.5rem, 2.5vw, 2rem);
+  --fs-h3: clamp(1.15rem, 2vw, 1.35rem);
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+
+  --lh-body: 1.7;
+  --lh-heading: 1.25;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 5rem;
+
+  /* Layout */
+  --container-max: 1200px;
+  --container-padding: 1.25rem;
+
+  /* Misc */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.12);
+  --transition: 0.25s ease;
+}

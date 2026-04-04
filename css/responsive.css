@@ -1,0 +1,56 @@
+/* Tablet: 768px+ */
+@media (min-width: 768px) {
+  .nav__links {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    width: auto;
+    background: none;
+    padding: 0;
+    gap: var(--space-xs);
+  }
+
+  .nav__links a {
+    padding: 0.5rem 0.85rem;
+    border-radius: var(--radius-sm);
+  }
+
+  .nav__toggle {
+    display: none;
+  }
+
+  .grid--2col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid--3col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .committee-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__inner {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Desktop: 1024px+ */
+@media (min-width: 1024px) {
+  .grid--3col {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .section {
+    padding: var(--space-2xl) 0;
+  }
+
+  .hero {
+    min-height: 75vh;
+  }
+}
