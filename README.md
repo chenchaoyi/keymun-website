@@ -47,9 +47,3 @@ Then open [http://localhost:8080](http://localhost:8080).
 
 Push to `main` branch — Vercel auto-deploys to [keymun.org](https://keymun.org).
 
-## Contact
-
-- Mia Cheng — Secretary General
-- Rachel Lin — Secretary General
-
-Keystone Academy, No. 11, Anfu Street, Houshayu, Shunyi, Beijing, P.R. China 101318
