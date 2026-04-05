@@ -71,19 +71,17 @@
 }
 
 .hero__logo {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   margin: 0 auto var(--space-lg);
   border-radius: 50%;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 8px;
 }
 
 .hero__logo img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .hero h1 {
