@@ -55,9 +55,14 @@
   transition: background var(--transition);
 }
 
-.nav__links a:hover,
+.nav__links a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
 .nav__links a.active {
   background: rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid var(--color-white);
+  padding-bottom: calc(0.5rem - 2px);
 }
 
 .nav__toggle {
@@ -80,7 +85,7 @@
 .btn {
   display: inline-block;
   padding: 0.7rem 1.8rem;
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-btn);
   font-weight: 600;
   font-size: var(--fs-small);
   transition: all var(--transition);
@@ -151,6 +156,10 @@
   font-size: var(--fs-small);
 }
 
+.card p strong {
+  color: var(--color-text);
+}
+
 .card__actions {
   display: flex;
   gap: var(--space-sm);
@@ -167,12 +176,15 @@
 }
 
 .letter__salutation {
+  font-family: var(--font-heading);
   font-style: italic;
+  font-size: 1.15rem;
   margin-bottom: var(--space-md);
 }
 
 .letter__closing {
   margin-top: var(--space-lg);
+  font-family: var(--font-heading);
   font-style: italic;
 }
 
@@ -333,4 +345,27 @@
 .toast.show {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
+}
+
+/* ===== ABOUT CONTENT ===== */
+.about-content {
+  max-width: 800px;
+}
+
+/* ===== UTILITY ===== */
+.card--centered {
+  text-align: center;
+}
+
+.card__email {
+  color: var(--color-primary-light);
+}
+
+.card__email:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.mt-xl {
+  margin-top: var(--space-xl);
 }
